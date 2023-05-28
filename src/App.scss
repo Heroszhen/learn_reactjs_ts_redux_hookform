@@ -1,0 +1,17 @@
+header#main-header{
+    display:flex;
+    >div{
+        margin-right:10px;
+    }
+    a.nav-link{
+        color:gray;
+    }
+    a.nav-link.active {
+        font-weight: bold;
+        color:green;
+    }
+}
+
+.m-section {
+    margin-bottom:20px;
+}
